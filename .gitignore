@@ -1,0 +1,11 @@
+Ignore temporary and cache files
+pycache/
+*.pyc
+*.swp
+
+Ignore environment and IDE files
+.venv/
+.env
+.settings/
+.codio
+.guides/
