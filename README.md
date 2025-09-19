@@ -1,9 +1,9 @@
-## Movie Library CLI Application
+# Movie Library CLI Application
 
 This is a command-line interface (CLI) application for managing a personal movie library. The program allows users to perform various operations such as adding, deleting, updating, and viewing movies, as well as generating statistics and searching the collection.
 The application is built in Python and uses a local JSON file to persist the movie data.
 
-# Features
+## Features
 
 Show Movies: Displays all movies in the library with their ratings and years.
 
@@ -15,7 +15,7 @@ Show Movies: Displays all movies in the library with their ratings and years.
 * Sort Movies: Displays all movies sorted by their rating in descending order.
 * Random Suggestion: Recommends a random movie from the library.
 
-# Project Structure
+## Project Structure
 
 * movies.py: The main script that contains the menu logic and all the core application functions.
 * movie_storage.py: A separate module responsible for handling data persistence (reading from and writing to the data.json file).
